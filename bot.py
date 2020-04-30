@@ -49,5 +49,5 @@ while True :
         if sents[0] == "新聞" :
             news()
         elif sents[0] == "遊戲" :
-            os.system("pip install requests")
+            os.system("")
         
