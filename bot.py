@@ -1,9 +1,7 @@
 import os
 import random
 import json
-
-os.system("pip install requests")
-os.system("pip install bs4")
+import game
 import requests
 from bs4 import BeautifulSoup
 
@@ -49,5 +47,5 @@ while True :
         if sents[0] == "新聞" :
             news()
         elif sents[0] == "遊戲" :
-            os.system("")
+            game.game()
         
