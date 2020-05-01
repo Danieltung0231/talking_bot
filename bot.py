@@ -1,3 +1,5 @@
+# requests bs4 pygame
+
 import os
 import random
 import json
